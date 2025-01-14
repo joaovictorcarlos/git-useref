@@ -4,7 +4,7 @@ const FocusInput = () => {
   const inputRef = useRef(null);
 
   const handleFocus = () => {
-    inputRef.current.focus(); // Foco no input ao clicar no botão
+    inputRef.current.focus();
   };
 
   return (
